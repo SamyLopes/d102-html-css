@@ -5,13 +5,63 @@ SELETOR {
 */
 
 body {
-    margin:0;
+    background-color: bisque;
+    font-family: sans-serif;        
+    margin: 0;
 }
 
 header {
-    background-color: salmon;
+    background-color: blue;
 }
 
-nav a {
+.nav-header a {
+    color: red;
     text-decoration: none;
+}
+
+.cor-vermelha {
+    color: red;
+}
+
+#header-pesquisa {
+    color: green;
+}
+
+/*::placeholder é um pseudoelemento, e só existe quando há uma tag input */
+#header-pesquisa::placeholder {
+    color: aqua;
+}
+
+textarea {
+    resize: none;
+}
+
+.formulario-contato {
+    background-color: lightgrey;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 13px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-contato p, .formulario-contato h3 {
+    font-size: 18pt;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.negrito:hover {
+    color: lawngreen;
+}
+
+img {
+    opacity: 0.5;
+}
+
+img:hover {
+    opacity: 1;
+}
+
+button {
+    cursor: pointer;
 }
