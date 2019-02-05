@@ -1,0 +1,17 @@
+/*
+SELETOR {
+    PROPRIEDADE VALOR;
+}
+*/
+
+body {
+    margin:0;
+}
+
+header {
+    background-color: salmon;
+}
+
+nav a {
+    text-decoration: none;
+}
